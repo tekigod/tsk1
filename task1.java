@@ -6,9 +6,9 @@ public class task1 {
      */
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
-        System.out.print("\n\nВведите число: ");
+        System.out.print("\n\nВведите число a: ");
         int a = iScanner.nextInt();
-        System.out.print("Введите степень числа: ");
+        System.out.print("Введите число b: ");
         int b = iScanner.nextInt();
 
         if (b == 0) {
